@@ -14,7 +14,12 @@
   <description>nexusTest</description>
   <properties>
   </properties>
-
+  <distributionManagement>
+    <repository>
+      <id>stopangin-libs-release</id>
+      <url>https://stopangin.jfrog.io/artifactory/stopangin-libs-release</url>
+    </repository>
+  </distributionManagement>
   <scm>
     <connection>scm:git:git@github.com:paralaxa/nexusTest.git</connection>
     <url>scm:git:git@github.com:paralaxa/nexusTest.git</url>
