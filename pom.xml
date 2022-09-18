@@ -15,8 +15,10 @@
   <properties>
   </properties>
   <distributionManagement>
+
     <repository>
-      <id>stopangin-libs-release</id>
+      <id>central</id>
+      <name>stopangin-libs-release</name>
       <url>https://stopangin.jfrog.io/artifactory/stopangin-libs-release</url>
     </repository>
   </distributionManagement>
