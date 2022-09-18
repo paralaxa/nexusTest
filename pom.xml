@@ -21,7 +21,6 @@
     <developerConnection>scm:git:git@github.com:paralaxa/nexusTest.git</developerConnection>
     <tag>v.1.0.1</tag>
   </scm>
-
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
