@@ -14,12 +14,32 @@
   <description>nexusTest</description>
   <properties>
   </properties>
+
+<repositories>
+  <repository>
+    <id>maven-snapshots</id>
+    <url>https://pkgs.dev.azure.com/java-community/gl-coins/_packaging/maven-snapshots/maven/v1</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
+</repositories>
+
   <distributionManagement>
 
+<!--    <repository>-->
+<!--      <id>central</id>-->
+<!--      <name>stopangin-libs-release</name>-->
+<!--      <url>https://stopangin.jfrog.io/artifactory/stopangin-libs-release</url>-->
+<!--    </repository>-->
+
     <repository>
-      <id>central</id>
-      <name>stopangin-libs-release</name>
-      <url>https://stopangin.jfrog.io/artifactory/stopangin-libs-release</url>
+      <id>maven-snapshots</id>
+      <url>https://pkgs.dev.azure.com/java-community/gl-coins/_packaging/maven-snapshots/maven/v1</url>
+
     </repository>
   </distributionManagement>
   <scm>
