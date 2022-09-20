@@ -9,7 +9,7 @@
   </parent>
   <groupId>com.example</groupId>
   <artifactId>nexusTest</artifactId>
-  <version>1.0.7-SNAPSHOT</version>
+  <version>1.0.7</version>
   <name>nexusTest</name>
   <description>nexusTest</description>
   <properties>
@@ -46,7 +46,7 @@
     <connection>scm:git:git@github.com:paralaxa/nexusTest.git</connection>
     <url>scm:git:git@github.com:paralaxa/nexusTest.git</url>
     <developerConnection>scm:git:git@github.com:paralaxa/nexusTest.git</developerConnection>
-    <tag>v.1.0.1</tag>
+    <tag>v1.0.7</tag>
   </scm>
   <dependencies>
     <dependency>
